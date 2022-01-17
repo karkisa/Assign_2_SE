@@ -31,4 +31,6 @@ if __name__ == "__main__":
 # http://127.0.0.1:8080/data/2.5/weather
 # https://api.openweathermap.org/data/2.5/weather?q=corvallis&appid=741d8bb9e490bcecbc0c3c56b458fcbd
 
-# resource https://pythonbasics.org/webserver/
+# http://3.82.127.138:3000/data/2.5/weather
+#http://ec2-3-82-127-138.compute-1.amazonaws.com:3000/data/2.5/weather
+
