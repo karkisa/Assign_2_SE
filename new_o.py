@@ -4,7 +4,7 @@ import json
 import time
 
 hostName = "localhost"
-serverPort = 8080
+serverPort = 3000
 mocjk_wea= {"coord":{"lon":-123.262,"lat":44.5646},"weather":[{"id":801,"main":"Clouds","description":"few clouds","icon":"02n"}],"base":"stations","main":{"temp":281.19,"feels_like":280.52,"temp_min":279.51,"temp_max":282.9,"pressure":1027,"humidity":79},"visibility":10000,"wind":{"speed":1.54,"deg":270},"clouds":{"all":20},"dt":1642209311,"sys":{"type":2,"id":2040223,"country":"US","sunrise":1642175199,"sunset":1642208235},"timezone":-28800,"id":5720727,"name":"Corvallis","cod":200}
 class MyServer(BaseHTTPRequestHandler):
     def do_GET(self):
